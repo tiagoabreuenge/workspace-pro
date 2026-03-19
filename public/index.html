@@ -5,21 +5,34 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Workspace Pro - Sistema de Gerenciamento</title>
     <script src="https://cdn.tailwindcss.com"></script>
-    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
     <style>
         * { font-family: 'Inter', sans-serif; }
         .gradient-bg { background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); }
-        .card-hover { transition: all 0.3s ease; }
-        .card-hover:hover { transform: translateY(-5px); box-shadow: 0 20px 40px rgba(0,0,0,0.1); }
     </style>
 </head>
-<body class="bg-gray-50">
-
-    <!-- NAVBAR -->
-    <nav class="bg-white shadow-lg border-b border-gray-200">
-        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-            <div class="flex justify-between h-16">
-                <div class="flex items-center">
-                    <div class="flex-shrink-0 flex items-center">
-                        <div class="h-10 w-10 gradient-bg rounded-lg flex items-center justify
+<body class="bg-gray-100">
+    <div class="min-h-screen flex items-center justify-center">
+        <div class="bg-white p-8 rounded-2xl shadow-2xl max-w-md w-full">
+            <div class="gradient-bg h-20 w-20 rounded-2xl flex items-center justify-center mx-auto mb-6">
+                <span class="text-white text-3xl font-bold">W</span>
+            </div>
+            <h1 class="text-3xl font-bold text-center mb-2">Workspace Pro</h1>
+            <p class="text-gray-600 text-center mb-8">Sistema de gerenciamento de projetos</p>
+            
+            <div class="space-y-4">
+                <div class="bg-green-50 border border-green-200 rounded-lg p-4">
+                    <p class="text-green-700 font-medium">✅ Servidor funcionando!</p>
+                    <p class="text-sm text-green-600 mt-1">Conectado ao PostgreSQL com sucesso</p>
+                </div>
+                
+                <div class="border-t pt-4">
+                    <p class="text-sm text-gray-500 text-center">
+                        Versão 1.0.0 | Desenvolvido para Railway
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
