@@ -1,29 +1,13 @@
 {
   "name": "workspace-pro-railway",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "main": "server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node server.js"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "type": "commonjs",
   "dependencies": {
-    "bcryptjs": "^3.0.3",
-    "cors": "^2.8.6",
-    "express": "^5.2.1",
-    "jsonwebtoken": "^9.0.3",
-    "pg": "^8.20.0"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/tiagoabreuenge/workspace-pro.git"
-  },
-  "bugs": {
-    "url": "https://github.com/tiagoabreuenge/workspace-pro/issues"
-  },
-  "homepage": "https://github.com/tiagoabreuenge/workspace-pro#readme"
+    "express": "^4.18.2",
+    "pg": "^8.11.3",
+    "cors": "^2.8.5"
+  }
 }
